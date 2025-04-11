@@ -6,7 +6,12 @@ public class Main {
         Saiyan mySaiyan = new Saiyan("Goku", 9001, 10000);
         Saiyan badSaiyan = new Saiyan("Yoku", 5000, 6000);
 
+
         mySaiyan.displayInfo();
-        badSaiyan.displayInfo(); 
+
+        mySaiyan.trainingArc();
+
+        mySaiyan.isSuper();
+
     }
 }

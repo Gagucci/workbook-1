@@ -24,4 +24,22 @@ public class Saiyan {
         System.out.println("Ki level is: " + kiLevel);
         System.out.println("Is he a Super Saiyan: " + superSaiyan);
     }
+
+    public void trainingArc() {
+        this.powerLevel = (powerLevel + 500);
+        this.kiLevel = (kiLevel +  50);
+
+        System.out.println(this.name + " has been training hard!");
+        System.out.println("Their power level is " + this.powerLevel);
+        System.out.println("Their ki level is " + this.kiLevel + "🔥");
+    }
+
+    public void isSuper() {
+        this.superSaiyan = true;
+
+        System.out.println("AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH!");
+        System.out.println("BOOM");
+        System.out.println("Transform!");
+    }
+
 }
