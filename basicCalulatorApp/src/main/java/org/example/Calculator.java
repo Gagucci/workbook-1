@@ -17,7 +17,7 @@ public class Calculator {
         System.out.println("Please enter your Second Number");
         numTwo = read.nextFloat();
 
-        System.out.println("Options:\nA - Addition\nS - Subtraction\nM - Multiplication\n D - Division");
+        System.out.println("Options:\nA - Addition\nS - Subtraction\nM - Multiplication\nD - Division");
         System.out.println("Select your calculation option.");
         choice = read.next();
         if (choice.equals("A")) {
