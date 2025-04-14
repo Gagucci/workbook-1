@@ -2,7 +2,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Calculator {
-    
+
         static Scanner read = new Scanner(System.in);
         static String name;
         static float hours;
