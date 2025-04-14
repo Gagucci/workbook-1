@@ -6,6 +6,7 @@ public class Main {
 
         SandwichTransaction.greetCustomer();
         SandwichTransaction.promptOrder();
+        SandwichTransaction.loadedCalculator();
         SandwichTransaction.calculateTotal();
 
     }
