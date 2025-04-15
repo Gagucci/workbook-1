@@ -54,10 +54,10 @@ public class SandwichTransaction {
 
     public static void calculateTotal() {
         if (age <= 17) {
-            total = ( order + (order * .10) );
+            total = ( order - (order * .10) );
             System.out.println("You get a 10% discount kiddo!");
         } else if (age >= 65) {
-            total = ( order + (order * .20) );
+            total = ( order - (order * .20) );
             System.out.println("You get a 20% discount, you old geezer!");
         } else {
             System.out.println("No discount for you, tough luck!");
